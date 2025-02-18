@@ -1,0 +1,13 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform cache files
+.terraform/
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Secret credential file
+credentials.sh
+credentials.ps1
